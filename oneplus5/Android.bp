@@ -105,17 +105,6 @@ android_app_import {
 }
 
 android_app_import {
-	name: "com.qualcomm.location",
-	owner: "oneplus",
-	apk: "proprietary/priv-app/com.qualcomm.location/com.qualcomm.location.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-}
-
-android_app_import {
 	name: "CneApp",
 	owner: "oneplus",
 	apk: "proprietary/vendor/app/CneApp/CneApp.apk",
@@ -157,5 +146,13 @@ android_app_import {
 		enabled: false,
 	},
 	product_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "vendor.qti.gnss@3.0-service",
+	owner: "oneplus",
+	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.gnss@3.0-service.xml",
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
 }
 
