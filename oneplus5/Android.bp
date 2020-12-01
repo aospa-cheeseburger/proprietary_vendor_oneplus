@@ -34,6 +34,27 @@ cc_prebuilt_library_shared {
 		},
 	},
 	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libsdm-disp-vndapis",
+	owner: "oneplus",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libsdm-disp-vndapis.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libsdm-disp-vndapis.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -53,6 +74,7 @@ cc_prebuilt_library_shared {
 		},
 	},
 	compile_multilib: "both",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -146,7 +168,7 @@ android_app_import {
 }
 
 prebuilt_etc_xml {
-	name: "manifest_android.hardware.drm@1.3-service.widevine",
+	name: "manifest_android.hardware.drm@1.3-service.widevine.xml",
 	owner: "oneplus",
 	src: "proprietary/vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml",
 	sub_dir: "vintf/manifest",
@@ -154,17 +176,9 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "vendor.qti.gnss@4.0-service",
+	name: "vendor.qti.gnss@4.0-service.xml",
 	owner: "oneplus",
 	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.gnss@4.0-service.xml",
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
-	name: "vendor.qti.hardware.servicetracker@1.2-service",
-	owner: "oneplus",
-	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.servicetracker@1.2-service.xml",
 	sub_dir: "vintf/manifest",
 	soc_specific: true,
 }

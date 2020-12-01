@@ -33,14 +33,10 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus5/proprietary/vendor/etc/permissions/com.fingerprints.extension.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.fingerprints.extension.xml \
     vendor/oneplus/oneplus5/proprietary/framework/com.qualcomm.qti.camera.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.qualcomm.qti.camera.jar \
     vendor/oneplus/oneplus5/proprietary/framework/vendor.oneplus.fingerprint.extension-V1.0-java.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/vendor.oneplus.fingerprint.extension-V1.0-java.jar \
-    vendor/oneplus/oneplus5/proprietary/lib/libsdm-disp-apis.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsdm-disp-apis.so \
     vendor/oneplus/oneplus5/proprietary/lib/vendor.oneplus.fingerprint.extension@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.oneplus.fingerprint.extension@1.0.so \
-    vendor/oneplus/oneplus5/proprietary/lib64/libsdm-disp-apis.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsdm-disp-apis.so \
     vendor/oneplus/oneplus5/proprietary/lib64/vendor.oneplus.fingerprint.extension@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.oneplus.fingerprint.extension@1.0.so \
     vendor/oneplus/oneplus5/proprietary/product/framework/vendor.qti.hardware.fingerprint-V1.0-java.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/vendor.qti.hardware.fingerprint-V1.0-java.jar \
-    vendor/oneplus/oneplus5/proprietary/product/lib/libsd_sdk_display.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libsd_sdk_display.so \
     vendor/oneplus/oneplus5/proprietary/product/lib/vendor.qti.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.hardware.fingerprint@1.0.so \
-    vendor/oneplus/oneplus5/proprietary/product/lib64/libsd_sdk_display.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libsd_sdk_display.so \
     vendor/oneplus/oneplus5/proprietary/product/lib64/vendor.qti.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.hardware.fingerprint@1.0.so \
     vendor/oneplus/oneplus5/proprietary/vendor/bin/ATFWD-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/ATFWD-daemon \
     vendor/oneplus/oneplus5/proprietary/vendor/bin/KmInstallKeybox:$(TARGET_COPY_OUT_VENDOR)/bin/KmInstallKeybox \
@@ -82,7 +78,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus5/proprietary/vendor/bin/hw/vendor.qti.hardware.qseecom@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.qseecom@1.0-service \
     vendor/oneplus/oneplus5/proprietary/vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service \
     vendor/oneplus/oneplus5/proprietary/vendor/bin/hw/vendor.qti.hardware.sensorscalibrate@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.sensorscalibrate@1.0-service \
-    vendor/oneplus/oneplus5/proprietary/vendor/bin/hw/vendor.qti.hardware.servicetracker@1.2-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.servicetracker@1.2-service \
     vendor/oneplus/oneplus5/proprietary/vendor/bin/hw/vendor.qti.hardware.soter@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.soter@1.0-service \
     vendor/oneplus/oneplus5/proprietary/vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti \
     vendor/oneplus/oneplus5/proprietary/vendor/bin/hw/vendor.qti.secure_element@1.2-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.secure_element@1.2-service \
@@ -240,7 +235,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus5/proprietary/vendor/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc \
     vendor/oneplus/oneplus5/proprietary/vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc \
     vendor/oneplus/oneplus5/proprietary/vendor/etc/init/vendor.qti.hardware.sensorscalibrate@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.sensorscalibrate@1.0-service.rc \
-    vendor/oneplus/oneplus5/proprietary/vendor/etc/init/vendor.qti.hardware.servicetracker@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.servicetracker@1.2-service.rc \
     vendor/oneplus/oneplus5/proprietary/vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.soter@1.0-service.rc \
     vendor/oneplus/oneplus5/proprietary/vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc \
     vendor/oneplus/oneplus5/proprietary/vendor/etc/init/vendor.qti.rmt_storage.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.rmt_storage.rc \
@@ -347,13 +341,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus5/proprietary/vendor/lib/com.qualcomm.qti.uceservice@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.uceservice@2.0.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib/com.qualcomm.qti.uceservice@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.uceservice@2.1.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib/com.qualcomm.qti.uceservice@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.uceservice@2.2.so \
-    vendor/oneplus/oneplus5/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/eglSubDriverAndroid.so \
-    vendor/oneplus/oneplus5/proprietary/vendor/lib/egl/libEGL_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libEGL_adreno.so \
-    vendor/oneplus/oneplus5/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLESv1_CM_adreno.so \
-    vendor/oneplus/oneplus5/proprietary/vendor/lib/egl/libGLESv2_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLESv2_adreno.so \
-    vendor/oneplus/oneplus5/proprietary/vendor/lib/egl/libQTapGLES.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libQTapGLES.so \
-    vendor/oneplus/oneplus5/proprietary/vendor/lib/egl/libq3dtools_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libq3dtools_adreno.so \
-    vendor/oneplus/oneplus5/proprietary/vendor/lib/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libq3dtools_esx.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib/fp_hal_extension.so:$(TARGET_COPY_OUT_VENDOR)/lib/fp_hal_extension.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib/ftm_fm_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/ftm_fm_lib.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so \
@@ -370,7 +357,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus5/proprietary/vendor/lib/hw/vendor.qti.hardware.qseecom@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.qseecom@1.0-impl.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib/hw/vendor.qti.hardware.sensorscalibrate@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.sensorscalibrate@1.0-impl.so \
-    vendor/oneplus/oneplus5/proprietary/vendor/lib/hw/vendor.qti.hardware.servicetracker@1.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.servicetracker@1.2-impl.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib/hw/vendor.qti.hardware.soter@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.soter@1.0-impl.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib/lib-imscmservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imscmservice.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib/lib-imsdpl.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imsdpl.so \
@@ -387,8 +373,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus5/proprietary/vendor/lib/lib-uceservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-uceservice.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib/libAlacSwDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libAlacSwDec.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib/libApeSwDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libApeSwDec.so \
-    vendor/oneplus/oneplus5/proprietary/vendor/lib/libC2D2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libC2D2.so \
-    vendor/oneplus/oneplus5/proprietary/vendor/lib/libCB.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCB.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib/libFileMux_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFileMux_proprietary.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib/libFlacSwDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFlacSwDec.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib/libGPQTEEC_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libGPQTEEC_vendor.so \
@@ -409,7 +393,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus5/proprietary/vendor/lib/libOmxVideoDSMode.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxVideoDSMode.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib/libOmxVpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxVpp.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib/libOmxWmaDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxWmaDec.so \
-    vendor/oneplus/oneplus5/proprietary/vendor/lib/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCL.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib/libQSEEComAPI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQSEEComAPI.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib/libQTEEConnector_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQTEEConnector_vendor.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib/libRSDriver_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/libRSDriver_adreno.so \
@@ -437,7 +420,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus5/proprietary/vendor/lib/libadiertac.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadiertac.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib/libadm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadm.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib/libadpcmdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadpcmdec.so \
-    vendor/oneplus/oneplus5/proprietary/vendor/lib/libadreno_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadreno_utils.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib/libadsp_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadsp_default_listener.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib/libadsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadsprpc.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib/libarcsoft_dualcam_bokeh_api.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_dualcam_bokeh_api.so \
@@ -453,12 +435,10 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus5/proprietary/vendor/lib/libaudioconfigstore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioconfigstore.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib/libaudioparsers.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioparsers.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib/libbase64.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbase64.so \
-    vendor/oneplus/oneplus5/proprietary/vendor/lib/libbccQTI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbccQTI.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib/libbluetooth_audio_session_qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth_audio_session_qti.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib/libblur_channel.so:$(TARGET_COPY_OUT_VENDOR)/lib/libblur_channel.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib/libbt-hidlclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbt-hidlclient.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib/libbtnv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbtnv.so \
-    vendor/oneplus/oneplus5/proprietary/vendor/lib/libc2d30_bltlib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc2d30_bltlib.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib/libcacertclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcacertclient.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib/libcamera_oneplus_bokeh_wrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamera_oneplus_bokeh_wrapper.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib/libcapiv2svacnn.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcapiv2svacnn.so \
@@ -593,7 +573,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus5/proprietary/vendor/lib/libgcs.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgcs.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib/libgdtap.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgdtap.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib/libgnsspps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgnsspps.so \
-    vendor/oneplus/oneplus5/proprietary/vendor/lib/libgsl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgsl.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib/libhbtpclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhbtpclient.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib/libhbtpdsp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhbtpdsp.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib/libhbtpfrmwk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhbtpfrmwk.so \
@@ -611,8 +590,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus5/proprietary/vendor/lib/libjpegehw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegehw.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib/liblbs_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblbs_core.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib/liblistensoundmodel2.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblistensoundmodel2.so \
-    vendor/oneplus/oneplus5/proprietary/vendor/lib/libllvm-glnext.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvm-glnext.so \
-    vendor/oneplus/oneplus5/proprietary/vendor/lib/libllvm-qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvm-qcom.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib/libloc_api_v02.so:$(TARGET_COPY_OUT_VENDOR)/lib/libloc_api_v02.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib/libloc_socket.so:$(TARGET_COPY_OUT_VENDOR)/lib/libloc_socket.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib/liblocationservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblocationservice.so \
@@ -788,8 +765,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus5/proprietary/vendor/lib/librilqmiservices.so:$(TARGET_COPY_OUT_VENDOR)/lib/librilqmiservices.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib/librmp.so:$(TARGET_COPY_OUT_VENDOR)/lib/librmp.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib/librpmb.so:$(TARGET_COPY_OUT_VENDOR)/lib/librpmb.so \
-    vendor/oneplus/oneplus5/proprietary/vendor/lib/librs_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/librs_adreno.so \
-    vendor/oneplus/oneplus5/proprietary/vendor/lib/librs_adreno_sha1.so:$(TARGET_COPY_OUT_VENDOR)/lib/librs_adreno_sha1.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib/libscveCommon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveCommon.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib/libscveCommon_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveCommon_stub.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib/libscveObjectSegmentation.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveObjectSegmentation.so \
@@ -799,7 +774,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus5/proprietary/vendor/lib/libsdedrm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdedrm.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib/libsdm-color.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdm-color.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib/libsdm-diag.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdm-diag.so \
-    vendor/oneplus/oneplus5/proprietary/vendor/lib/libsdm-disp-vndapis.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdm-disp-vndapis.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib/libsdmextension.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdmextension.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib/libsdmutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdmutils.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib/libsdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdsprpc.so \
@@ -990,13 +964,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus5/proprietary/vendor/lib64/com.qualcomm.qti.uceservice@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.uceservice@2.0.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib64/com.qualcomm.qti.uceservice@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.uceservice@2.1.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib64/com.qualcomm.qti.uceservice@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.uceservice@2.2.so \
-    vendor/oneplus/oneplus5/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/eglSubDriverAndroid.so \
-    vendor/oneplus/oneplus5/proprietary/vendor/lib64/egl/libEGL_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libEGL_adreno.so \
-    vendor/oneplus/oneplus5/proprietary/vendor/lib64/egl/libGLESv1_CM_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLESv1_CM_adreno.so \
-    vendor/oneplus/oneplus5/proprietary/vendor/lib64/egl/libGLESv2_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLESv2_adreno.so \
-    vendor/oneplus/oneplus5/proprietary/vendor/lib64/egl/libQTapGLES.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libQTapGLES.so \
-    vendor/oneplus/oneplus5/proprietary/vendor/lib64/egl/libq3dtools_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libq3dtools_adreno.so \
-    vendor/oneplus/oneplus5/proprietary/vendor/lib64/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libq3dtools_esx.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib64/fp_hal_extension.so:$(TARGET_COPY_OUT_VENDOR)/lib64/fp_hal_extension.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib64/ftm_fm_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/ftm_fm_lib.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so \
@@ -1013,7 +980,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus5/proprietary/vendor/lib64/hw/vendor.qti.hardware.qseecom@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.qseecom@1.0-impl.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib64/hw/vendor.qti.hardware.sensorscalibrate@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.sensorscalibrate@1.0-impl.so \
-    vendor/oneplus/oneplus5/proprietary/vendor/lib64/hw/vendor.qti.hardware.servicetracker@1.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.servicetracker@1.2-impl.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib64/lib-imscmservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imscmservice.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib64/lib-imsdpl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imsdpl.so \
@@ -1030,8 +996,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus5/proprietary/vendor/lib64/lib-uceservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-uceservice.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib64/libAlacSwDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libAlacSwDec.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib64/libApeSwDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libApeSwDec.so \
-    vendor/oneplus/oneplus5/proprietary/vendor/lib64/libC2D2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libC2D2.so \
-    vendor/oneplus/oneplus5/proprietary/vendor/lib64/libCB.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCB.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib64/libFlacSwDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libFlacSwDec.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib64/libGPQTEEC_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libGPQTEEC_vendor.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib64/libGPTEE_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libGPTEE_vendor.so \
@@ -1049,7 +1013,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus5/proprietary/vendor/lib64/libOmxQcelp13Dec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxQcelp13Dec.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib64/libOmxVpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxVpp.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib64/libOmxWmaDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxWmaDec.so \
-    vendor/oneplus/oneplus5/proprietary/vendor/lib64/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOpenCL.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib64/libQSEEComAPI.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libQSEEComAPI.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib64/libQTEEConnector_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libQTEEConnector_vendor.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib64/libRSDriver_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libRSDriver_adreno.so \
@@ -1061,7 +1024,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus5/proprietary/vendor/lib64/libacdbrtac.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libacdbrtac.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib64/libadaptlaunch.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadaptlaunch.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib64/libadiertac.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadiertac.so \
-    vendor/oneplus/oneplus5/proprietary/vendor/lib64/libadreno_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadreno_utils.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib64/libadsp_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadsp_default_listener.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib64/libadsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadsprpc.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib64/libappclassifier.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libappclassifier.so \
@@ -1071,11 +1033,9 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus5/proprietary/vendor/lib64/libaudioconfigstore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudioconfigstore.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib64/libaudioparsers.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudioparsers.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib64/libbase64.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbase64.so \
-    vendor/oneplus/oneplus5/proprietary/vendor/lib64/libbccQTI.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbccQTI.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib64/libbluetooth_audio_session_qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_audio_session_qti.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib64/libbt-hidlclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbt-hidlclient.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib64/libbtnv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbtnv.so \
-    vendor/oneplus/oneplus5/proprietary/vendor/lib64/libc2d30_bltlib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc2d30_bltlib.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib64/libcacertclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcacertclient.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib64/libcapiv2svacnn.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcapiv2svacnn.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib64/libcapiv2vop.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcapiv2vop.so \
@@ -1108,7 +1068,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus5/proprietary/vendor/lib64/libgcs.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgcs.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib64/libgdtap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgdtap.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib64/libgnsspps.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgnsspps.so \
-    vendor/oneplus/oneplus5/proprietary/vendor/lib64/libgsl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgsl.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib64/libhbtpclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhbtpclient.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib64/libhbtpdsp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhbtpdsp.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib64/libhbtpfrmwk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhbtpfrmwk.so \
@@ -1124,8 +1083,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus5/proprietary/vendor/lib64/liblbs_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblbs_core.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib64/liblearningmodule.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblearningmodule.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib64/liblistensoundmodel2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblistensoundmodel2.so \
-    vendor/oneplus/oneplus5/proprietary/vendor/lib64/libllvm-glnext.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libllvm-glnext.so \
-    vendor/oneplus/oneplus5/proprietary/vendor/lib64/libllvm-qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libllvm-qcom.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib64/libloadalgo_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libloadalgo_stub.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib64/libloc_api_v02.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libloc_api_v02.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib64/libloc_socket.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libloc_socket.so \
@@ -1205,8 +1162,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus5/proprietary/vendor/lib64/librilqmiservices.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librilqmiservices.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib64/librmp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librmp.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib64/librpmb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librpmb.so \
-    vendor/oneplus/oneplus5/proprietary/vendor/lib64/librs_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librs_adreno.so \
-    vendor/oneplus/oneplus5/proprietary/vendor/lib64/librs_adreno_sha1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librs_adreno_sha1.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib64/libscveCommon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveCommon.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib64/libscveCommon_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveCommon_stub.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib64/libscveObjectSegmentation.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveObjectSegmentation.so \
@@ -1216,7 +1171,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus5/proprietary/vendor/lib64/libsdedrm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdedrm.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib64/libsdm-color.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdm-color.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib64/libsdm-diag.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdm-diag.so \
-    vendor/oneplus/oneplus5/proprietary/vendor/lib64/libsdm-disp-vndapis.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdm-disp-vndapis.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib64/libsdmextension.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdmextension.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib64/libsdmutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdmutils.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib64/libsdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdsprpc.so \
@@ -1380,6 +1334,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libfastcvopt \
+    libsdm-disp-vndapis \
     libthermalclient \
     CACertService \
     CneApp \
@@ -1389,6 +1344,5 @@ PRODUCT_PACKAGES += \
     SSGTelemetryService \
     TimeService \
     TrustZoneAccessService \
-    manifest_android.hardware.drm@1.3-service.widevine \
-    vendor.qti.gnss@4.0-service \
-    vendor.qti.hardware.servicetracker@1.2-service
+    manifest_android.hardware.drm@1.3-service.widevine.xml \
+    vendor.qti.gnss@4.0-service.xml
