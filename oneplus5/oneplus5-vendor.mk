@@ -31,12 +31,17 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus5/proprietary/etc/firmware/tp/fw_synaptics_16859.img:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tp/fw_synaptics_16859.img \
     vendor/oneplus/oneplus5/proprietary/etc/firmware/tp/fw_synaptics_17801.img:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tp/fw_synaptics_17801.img \
     vendor/oneplus/oneplus5/proprietary/vendor/etc/permissions/com.fingerprints.extension.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.fingerprints.extension.xml \
+    vendor/oneplus/oneplus5/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.qti.snapdragon.sdk.display.xml \
     vendor/oneplus/oneplus5/proprietary/framework/com.qualcomm.qti.camera.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.qualcomm.qti.camera.jar \
     vendor/oneplus/oneplus5/proprietary/framework/vendor.oneplus.fingerprint.extension-V1.0-java.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/vendor.oneplus.fingerprint.extension-V1.0-java.jar \
+    vendor/oneplus/oneplus5/proprietary/lib/libsdm-disp-apis.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsdm-disp-apis.so \
     vendor/oneplus/oneplus5/proprietary/lib/vendor.oneplus.fingerprint.extension@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.oneplus.fingerprint.extension@1.0.so \
+    vendor/oneplus/oneplus5/proprietary/lib64/libsdm-disp-apis.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsdm-disp-apis.so \
     vendor/oneplus/oneplus5/proprietary/lib64/vendor.oneplus.fingerprint.extension@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.oneplus.fingerprint.extension@1.0.so \
     vendor/oneplus/oneplus5/proprietary/product/framework/vendor.qti.hardware.fingerprint-V1.0-java.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/vendor.qti.hardware.fingerprint-V1.0-java.jar \
+    vendor/oneplus/oneplus5/proprietary/product/lib/libsd_sdk_display.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libsd_sdk_display.so \
     vendor/oneplus/oneplus5/proprietary/product/lib/vendor.qti.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.hardware.fingerprint@1.0.so \
+    vendor/oneplus/oneplus5/proprietary/product/lib64/libsd_sdk_display.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libsd_sdk_display.so \
     vendor/oneplus/oneplus5/proprietary/product/lib64/vendor.qti.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.hardware.fingerprint@1.0.so \
     vendor/oneplus/oneplus5/proprietary/vendor/bin/ATFWD-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/ATFWD-daemon \
     vendor/oneplus/oneplus5/proprietary/vendor/bin/KmInstallKeybox:$(TARGET_COPY_OUT_VENDOR)/bin/KmInstallKeybox \
@@ -1536,6 +1541,7 @@ PRODUCT_PACKAGES += \
     TimeService \
     TrustZoneAccessService \
     pasrservice \
+    com.qti.snapdragon.sdk.display \
     android.hardware.neuralnetworks@1.3-service-qti.xml \
     manifest_android.hardware.drm@1.3-service.widevine.xml \
     vendor.qti.gnss@4.0-service.xml
