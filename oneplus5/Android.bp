@@ -84,6 +84,12 @@ android_app_import {
 	product_specific: true,
 }
 
+dex_import {
+	name: "com.qti.snapdragon.sdk.display",
+	owner: "oneplus",
+	jars: ["proprietary/framework/com.qti.snapdragon.sdk.display.jar"],
+}
+
 prebuilt_etc_xml {
 	name: "manifest_android.hardware.drm@1.3-service.widevine.xml",
 	owner: "oneplus",
