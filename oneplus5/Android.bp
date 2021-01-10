@@ -63,9 +63,31 @@ android_app_import {
 }
 
 android_app_import {
+	name: "SSGTelemetryService",
+	owner: "oneplus",
+	apk: "proprietary/vendor/app/SSGTelemetryService/SSGTelemetryService.apk",
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	soc_specific: true,
+}
+
+android_app_import {
 	name: "TimeService",
 	owner: "oneplus",
 	apk: "proprietary/vendor/app/TimeService/TimeService.apk",
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	soc_specific: true,
+}
+
+android_app_import {
+	name: "TrustZoneAccessService",
+	owner: "oneplus",
+	apk: "proprietary/vendor/app/TrustZoneAccessService/TrustZoneAccessService.apk",
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -88,6 +110,14 @@ dex_import {
 	name: "com.qti.snapdragon.sdk.display",
 	owner: "oneplus",
 	jars: ["proprietary/framework/com.qti.snapdragon.sdk.display.jar"],
+}
+
+prebuilt_etc_xml {
+	name: "android.hardware.keymaster@4.1-service-default-qti.xml",
+	owner: "oneplus",
+	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.keymaster@4.1-service-default-qti.xml",
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
 }
 
 prebuilt_etc_xml {
