@@ -6,6 +6,7 @@
      Confidential and Proprietary - Qualcomm Technologies, Inc.
 -->
 
+
 <!-- QMI configuration -->
 <list name="netmgr_config">
   <!-- Logging overrides for ds_exec() family of commands -->
@@ -3115,6 +3116,7 @@
       <data name="rmnet_shs" type="int"> 1 </data>
       <data name="uplink_priority" type="int"> 1 </data>
       <data name="iwlan_concurrency" type="int"> 1 </data>
+      <data name="nl_xfrm" type="int"> 1 </data>
       <data name="netdev_max_backlog" type="int"> 100000 </data>
       <data name="debug_netdev_max_backlog" type="int"> 1500 </data>
 
