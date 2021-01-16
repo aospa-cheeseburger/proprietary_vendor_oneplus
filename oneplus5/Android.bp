@@ -20,16 +20,6 @@ soong_namespace {
 }
 
 android_app_import {
-	name: "SoterService",
-	owner: "oneplus",
-	apk: "proprietary/app/SoterService/SoterService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-}
-
-android_app_import {
 	name: "CACertService",
 	owner: "oneplus",
 	apk: "proprietary/vendor/app/CACertService/CACertService.apk",
@@ -110,14 +100,6 @@ dex_import {
 	name: "com.qti.snapdragon.sdk.display",
 	owner: "oneplus",
 	jars: ["proprietary/framework/com.qti.snapdragon.sdk.display.jar"],
-}
-
-prebuilt_etc_xml {
-	name: "android.hardware.keymaster@4.1-service-default-qti.xml",
-	owner: "oneplus",
-	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.keymaster@4.1-service-default-qti.xml",
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
 }
 
 prebuilt_etc_xml {
