@@ -53,6 +53,17 @@ android_app_import {
 }
 
 android_app_import {
+	name: "QCC-TR-UI",
+	owner: "oneplus",
+	apk: "proprietary/vendor/app/QCC-TR-UI/QCC-TR-UI.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	soc_specific: true,
+}
+
+android_app_import {
 	name: "SSGTelemetryService",
 	owner: "oneplus",
 	apk: "proprietary/vendor/app/SSGTelemetryService/SSGTelemetryService.apk",
@@ -67,7 +78,7 @@ android_app_import {
 	name: "TimeService",
 	owner: "oneplus",
 	apk: "proprietary/vendor/app/TimeService/TimeService.apk",
-	presigned: true,
+	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
@@ -93,6 +104,18 @@ android_app_import {
 	dex_preopt: {
 		enabled: false,
 	},
+	product_specific: true,
+}
+
+android_app_import {
+	name: "seccamservice",
+	owner: "oneplus",
+	apk: "proprietary/product/priv-app/seccamservice/seccamservice.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
 	product_specific: true,
 }
 
