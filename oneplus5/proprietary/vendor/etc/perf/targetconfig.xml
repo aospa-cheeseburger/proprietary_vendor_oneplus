@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <!--
- * Copyright (c) 2019 Qualcomm Technologies, Inc.
+ * Copyright (c) 2017-2018 Qualcomm Technologies, Inc.
  * All Rights Reserved.
  * Confidential and Proprietary - Qualcomm Technologies, Inc.
 -->
@@ -36,24 +36,19 @@
         * MaxFrequency, Any limitations for max frequency for that cluster.
     -->
 
-    <!-- For targets sharing the same platfrom, we can have seperate config tag for each
-         of those targets with different number in the Config tag and basing on the socId
-         of the target device, we decide which configs to consider. -->
-
     <Config1>
 
          <TargetInfo
-             Target="trinket"
+             Target="msm8998"
              NumClusters="2"
              TotalNumCores="8"
-             SocIds="394"
+             SocIds="292,319"
              SynCore="1"
              CoreCtlCpu="4"
-             MinCoreOnline="0"
-             CpufreqGov="1" />
+             MinCoreOnline="0" />
 
          <ClustersInfo Id="0" NumCores="4" Type="little" />
-         <ClustersInfo Id="1" NumCores="4" Type="big" />
+         <ClustersInfo Id="1" NumCores="4" Type="big" MaxFrequency="2361600" />
 
     </Config1>
 
